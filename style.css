@@ -1,12 +1,67 @@
+body{
+    background-color: green;
+}
+
 #content{
-	
+    background-color: bisque;
+    border-radius: 10px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
 }
+
 #imageright{
-	
+	margin-left: 20px;
+    width: 275px;
+    float: right;
+    border: 2px solid green;
+    border-radius: 20px;   
+    background-color: bisque; 
 }
+
+#imgright, img{
+    width: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
 #imageleft{
-	
+	margin-left: 30px;
+    margin-bottom: 80px;
+    width: 300px;
+    float: left;
+    border: 2px solid green;
+    border-radius: 20px;   
+    background-color: bisque; 
 }
+
+#imageleft, img{
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
 .kepszoveg{
-	
+	font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin: auto;
+
+}
+
+h1, h2{
+    text-transform: uppercase;
+    color: forestgreen
+}
+
+p, ul, ol{
+    text-align: justify;
+}
+
+a{
+    color: blue;
+}
+
+a:hover{
+    color: red;
 }
